@@ -41,7 +41,7 @@ simple_shell is installed by running the following commands in your terminal.
 
 After that simple_shell can compile using
 
-    gcc -Wall -Werror -Wextra -pedantic *.c -o simple_shell
+    gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o hsh
 
 To start, write the following:
 
