@@ -2,7 +2,7 @@
 
 This is a simple implementation of a command-line interpreter for the Unix operating system created by [Dan Kahia] and [Christadrian Madegwa]
 
-#Learning Objectives
+# Learning Objectives
 
 -Who designed and implemented the original Unix operating system
 -Who wrote the first version of the UNIX shell
@@ -19,7 +19,7 @@ This is a simple implementation of a command-line interpreter for the Unix opera
 -How to suspend the execution of a process until one of its children terminates
 -What is **EOF** / “end-of-file”?
 
-#Requirements
+# Requirements
 
 Allowed editors: vi, vim, emacs
 All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89
@@ -47,8 +47,9 @@ To start, write the following:
 
     ./simple_shell
 
-#Contributors
+# Contributors
 
 [Dan Kahia](https://github.com/DANKAHIA)
+
 [Christadrian Madegwa](https://github.com/AdrianChris)
 
