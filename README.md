@@ -1,6 +1,6 @@
 # Simple Shell Project
 
-This is a simple implementation of a command-line interpreter for the Unix operating system created by [Dan Kahia] and [Christadrian Madegwa]
+This is a simple implementation of a command-line interpreter for the Unix operating system created by **Dan Kahia** and **Christadrian Madegwa**
 
 ## Learning Objectives
 
