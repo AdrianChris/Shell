@@ -45,7 +45,7 @@ After that simple_shell can compile using
 
 To start, write the following:
 
-    ./simple_shell
+    ./hsh
 
 ## Contributors
 
