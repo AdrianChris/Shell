@@ -1,14 +1,24 @@
 #include "main.h"
 
-void execute(char **argv) {
-    char *command = NULL;
-    if (argv) {
-        command = argv[0];
-    }
+/**
+ * execute - Parsing execvp
+ * @argv: The array of arguments
+ */
 
-    if (execvp(command, argv) == -1) {
-        perror("Error");
-        exit(errno);
-    }
+void execute(char **argv)
+{
+	char *command = NULL;
+
+
+	if (argv)
+	{
+		command = argv[0];
+	}
+
+	if (execvp(command, argv) == -1)
+	{
+		perror("./shell");
+
+	}
 }
 
