@@ -1,12 +1,13 @@
 #include "main.h"
 
-int main(int ac, char **av, char **env)
+/**
+ * main - Entry point of the program
+ *
+ * Return: 0 on success
+ */
+
+int main(void)
 {
-    if (ac == 1)
-    {
-        shelly_prompt(av, env);
-    }
-
-    return 0;
+	shelly_prompt();
+	return (0);
 }
-
